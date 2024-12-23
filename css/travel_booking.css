@@ -1,8 +1,7 @@
-.head{
-    text-align: center;
-    background-color: rgb(6, 148, 230);
-    color: rgb(253, 251, 251);
-   
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #bcbcc7;
+    
 }
 
 nav{
