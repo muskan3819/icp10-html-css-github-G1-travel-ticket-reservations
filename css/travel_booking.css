@@ -4,3 +4,13 @@
     color: rgb(253, 251, 251);
    
 }
+
+nav{
+    width: 100%;
+    position: fixed;
+    background-color: rgb(21, 74, 74);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 15%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
