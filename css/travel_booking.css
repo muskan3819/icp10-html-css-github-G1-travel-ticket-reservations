@@ -1,25 +1,25 @@
 body{
     font-family: 'Poppins', sans-serif;
-    background: #bcbcc7;
+    background: #eeeef8;
     
 }
 
 nav{
     width: 100%;
     position: fixed;
-    background-color: rgb(21, 74, 74);
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 15%);
+    background-color: rgb(18, 58, 235);
+    box-shadow: 5px 5px 30px rgba(148, 157, 182, 0.15);
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-nav .logo{
+.logo{
     width: 70px;
     margin: 20px;
     margin-left: 20px;
 }
 .title{
-    color: #d4c9c9;
+    color: #cdcfd3;
     font-size: 40px;
     margin-right: 300px;
     
