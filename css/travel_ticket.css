@@ -21,12 +21,12 @@ h1{
     
 }
 .sub2{
-    height: 200px;
-    width: 200px;
+    height: 40px;
+    width: 400px;
     border-color: black;
     border-style: double;
     border-radius: 2%;
     border: 5%;
-    
+    margin-bottom: 100px;
 }
 
