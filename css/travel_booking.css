@@ -37,3 +37,18 @@ nav{
 .booking-form h1 span{
     color: #365f8f;
 }
+.booking-form{
+    color: rgb(72, 99, 219);
+    font-size: 20px;
+}
+.booking-form form input{
+    color: rgb(231, 232, 238);
+    padding: 17px;
+    background-color: #3236ee;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
