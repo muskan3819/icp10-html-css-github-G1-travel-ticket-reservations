@@ -11,5 +11,8 @@ h1{
 }
 
 .sub{
-
+    height: 500px;
+    width: 400px;
+    border-color: black;
+    border-style: double;
 }
