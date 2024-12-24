@@ -1,26 +1,54 @@
 body{
     font-family: 'Poppins', sans-serif;
-    background: #bcbcc7;
+    background: #8d8dad;
     
 }
 
 nav{
     width: 100%;
     position: fixed;
-    background-color: rgb(21, 74, 74);
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 15%);
+    background-color: rgb(18, 58, 235);
+    box-shadow: 5px 5px 30px rgba(148, 157, 182, 0.15);
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-nav .logo{
+.logo{
     width: 70px;
     margin: 20px;
     margin-left: 20px;
 }
 .title{
-    color: #d4c9c9;
+    color: #cdcfd3;
     font-size: 40px;
     margin-right: 300px;
+    
+}
+.booking{
+    padding: 110px 30%;
+    height: 100%;
+    
+}
+.booking-form h1{
+    font-size: 80px;
+    color: rgb(19, 66, 221);
+    margin-bottom: 20px;
+}
+.booking-form h1 span{
+    color: #365f8f;
+}
+.booking-form{
+    color: rgb(72, 99, 219);
+    font-size: 20px;
+}
+.booking-form form input{
+    color: rgb(231, 232, 238);
+    padding: 17px;
+    background-color: #3236ee;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
     
 }
