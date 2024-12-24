@@ -16,5 +16,7 @@ h1{
     width: 400px;
     border-color: black;
     border-style: double;
+    border-radius: 2%;
+    border: 5%;
     
 }
