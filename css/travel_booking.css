@@ -49,6 +49,11 @@ nav{
     outline: none;
     border: none;
     border-radius: 10px;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;  
+}
+.booking-form h4{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #192ee9;
 }
