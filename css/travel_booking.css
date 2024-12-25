@@ -42,7 +42,7 @@ nav{
     font-size: 20px;
 }
 .booking-form form input{
-    color: rgb(231, 232, 238);
+    color: rgb(251, 251, 252);
     padding: 17px;
     background-color: #3236ee;
     font-size: 20px;
@@ -73,7 +73,13 @@ nav{
     background-color: transparent;
     transform: scale(1.1);
 }
-
+.img{
+    width: 100px;
+}
+.head{
+    font-size: 40px;
+    color: #adadcf;
+}
 @media screen and (max-width: 600px)
  {
  }
