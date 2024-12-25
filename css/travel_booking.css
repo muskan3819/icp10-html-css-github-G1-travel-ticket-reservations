@@ -57,3 +57,14 @@ nav{
     margin-top: 20px;
     color: #192ee9;
 }
+.booking-form form .submitbtn{
+    display: inline-block;
+    background-color: #4652f5;
+    font-size: 27px;
+    font-weight: 600px;
+    border: 2px solid transparent;
+    border-radius: 60px;
+    width: 220px;
+    cursor: pointer;
+    transition: ease 0.30s;
+}
