@@ -68,3 +68,9 @@ nav{
     cursor: pointer;
     transition: ease 0.30s;
 }
+.booking-form form .submitbtn:hover{
+    border: 2px solid #915dcc;
+    background-color: transparent;
+    transform: scale(1.1);
+}
+
