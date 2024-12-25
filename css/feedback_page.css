@@ -1,4 +1,4 @@
-/*feedback_page.css */
+/* feedback_page.css */
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -10,26 +10,7 @@ body {
   height: 100vh;
 }
 
-      .img{
-          margin-left:2% ;
-      }
-      .f1{
-          align-items: center;
-          font-family: Copperplate Gothic Bold;
-          font-size: 20px;
-      }
-       .navbar{
-          background-color: rgb(95, 171, 248);
-          height: 85px;
-          width: 100%;
-          position: sticky;
-          width: 100%;
-          z-index: 100%;
-          color: rgb(14, 15, 15);
-          display: flex;
-          align-items: center;
-       }
-  .feedback-container {
+.feedback-container {
   background: white;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
