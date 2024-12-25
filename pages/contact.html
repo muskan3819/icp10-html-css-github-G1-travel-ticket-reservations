@@ -12,29 +12,29 @@
             font-family: "poppins";
         }
         body{
-            display: flex;
+            display:flex;
             justify-content: center;
             align-items:center;
             min-width: 100px;
         }
         .container{
            position: relative;
-           width: 100%;
-           height: 100vh;
-           background-color: #AFEEEE;
+           width:100%;
+           height:100vh;
+           background-color:blue;
            display: flex;
-           justify-content: center;
+           justify-content:center;
            align-items: center;
         }
         .item{
-            width: 100%;
-            height: 550px;
-            max-width: 820px;
+            width:100%;
+            height:590px;
+            max-width:950px;
             background-color:#fff;
             border-radius: 20px;
-            box-shadow: 0 0 20px 10px rgb(0,0,0.4);
+            box-shadow: 0 0 20px 10px rgb(0,0,0,.4);
             overflow: hidden;
-            grid-template-columns: repeat(2,1fr);
+            grid-template-columns: repeat(2, 1fr);
             display: grid;
             z-index: 1000;
         }
@@ -42,20 +42,13 @@
             background-color:#fff;
         }
         .submit-form{
-            background-color: #AFEEEE;
+            background-color:#AFEEEE;
 
-        }
-        .first-text{
-            padding-left: 20px;
-            padding-top: 20px;
-            font-size: 35px;
-            color: black;
-            font-weight:600;
         }
         
         .image{
-            height:320px;
-            width:320px;
+            height:420px;
+            width:420px;
         }
         .social-media{
             display: flex;
@@ -78,35 +71,40 @@
             color: black;
         }
         .second-text{
-            font-weight:500;
+            font-size: 30px;
             color: black;
-            padding-left:30px;
+            padding-left:12px;
+        }
+        .mobile-no{
+            color:blue;
+            padding-left:50px;
+        
         }
         .third-text{
-            font-size:20px;
-            position:relative;
-            top:10px;
-            left: 20px;
-            padding-top:10px;
-            color: #fff;
+            font-size: 30px;
+            padding-left: 35px;
+           padding-top: 0;
         }
+        
         form{
-            padding: 0 40px;
+            padding: 0 45px;
             height: 100%;
             width: 100%;
             overflow: hidden;
         }
         .input-box{
-            height: 40px;
-            width: 70%;
-            margin: 30px 0;
-            position: relative;
+            height:40px;
+            width:70%;
+            margin:20px 0;
+            position:relative;
+
+
         }
         .input{
             width: 100%;
             height: 100%;
             background: transparent;
-            border: 2px solid #fff;
+            border: 1px solid #fff;
             border-radius: 20px;
             outline: none;
             padding-left: 10px;
@@ -114,54 +112,60 @@
             font-size: 16px;
         }
         .input-box label{
-            padding: absolute;
+            position: absolute;
             top:50%;
-            left:10%;
-            padding-left:15px;
+            left:10px;
+            padding-left:10px;
             transform: translateY(-50%);
             font-size:15px;
-            font-weight: 500;
+            font-weight:600;
             color:black;
             transition: .3s;
         }
-        .input-box .input:focus ~label,
-        .input-box .input:valid ~label{
-            top:-3px;
-            left:10px;
-            font-weight:500;
-            font-size: 12px;
-            padding: 5px;
-        }
+       
         textarea.input{
             resize: none;
-            min-height:140px;
+            min-height:170px;
             overflow:auto;
-        }
-        
-
+            }
+            .btn{
+                position: relative;
+                top:150px;
+                background-color: green;
+                text-align:center;
+                border-radius:2px;
+                height:30px;
+                width:100px;
+                font-size:25px;
+                cursor: pointer;
+                font-weight: 500;
+            }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="item">
             <div class="contact">
-                <div class="first-text">Contact Us</div>
-                <img src="C:\Users\admin\Desktop\icp10-html-css-github-G1-travel-ticket-reservations\img\contact-img.webp" alt="logo" class="image">
+                <img src="C:\Users\admin\Desktop\icp10-html-css-github-G1-travel-ticket-reservations\img\contact-img.webp" alt="logo" class="image"><br>
                 <div class="social-links">
-                    <span class="second-text">Contact With Us:</span>
+                    <span class="second-text">Contact With Us:</span><br>
+                    <div class="social-links">
+                        <div class="mobile-no">Mobile-no:1234567890</div>
+                        <div class="mobile-no">gayatridale@gmail.com</div>
+                    </div>
                     <ul class="social-media">
-                        <li><a href="#"><i class="bx bxl-facebook"></i></a></li>
-                        <li><a href="#"><i class="bx  bxl-twitter"></i></a></li>
-                        <li><a href="#"><i class="bx bxl-youtube"></i></a></li>
-                        <li><a href="#"><i class="bx bxl-linkedin"></i></a></li>
+                        <li><a href="https://www.facebook.com"><i class="bx bxl-facebook"></i></a></li>
+                        <li><a href="https://www.twitter.com"><i class="bx  bxl-twitter"></i></a></li>
+                        <li><a href="https://www.youtube.com"><i class="bx bxl-youtube"></i></a></li>
+                        <li><a href="https://www.instagram.com"><i class="bx bxl-instagram"></i></a></li>
                     </ul>
                 </div>
             </div>
             <div class="submit-form">
-                <h1 class="third-text"> Send as a Message</h1>
+                <h4 class="third-text"> Send as a Messages</h4>
                 <form action="">
                     <div class="input-box">
-                        <input type="text" class="input" required>
+                        <input type="text" class="input">
                         <label for="">Name</label>
                     </div>
                     <div class="input-box">
@@ -175,6 +179,7 @@
                         <textarea name="" class="input" required  id="message" cols="30" rows="10"></textarea>
                         <label for="">Message</label>
                     </div>
+                    <input type="submit" class="btn" value="Submit">
                  </form>
             </div>
          </div>
