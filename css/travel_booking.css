@@ -1,6 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-    background: #8d8dad;
+    background: #f3f3f3;
     
 }
 
@@ -49,6 +49,42 @@ nav{
     outline: none;
     border: none;
     border-radius: 10px;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;  
 }
+.booking-form h4{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #192ee9;
+}
+.booking-form form .submitbtn{
+    display: inline-block;
+    background-color: #4652f5;
+    font-size: 27px;
+    font-weight: 600px;
+    border: 2px solid transparent;
+    border-radius: 60px;
+    width: 220px;
+    cursor: pointer;
+    transition: ease 0.30s;
+}
+.booking-form form .submitbtn:hover{
+    border: 2px solid #915dcc;
+    background-color: transparent;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 600px)
+ {
+ }
+ 
+ @media (min-width: 600px) and (max-width: 800px)
+ {
+   
+ }
+
+ @media (min-width: 801px) and (max-width:1024px)
+ {
+   
+ }
+
