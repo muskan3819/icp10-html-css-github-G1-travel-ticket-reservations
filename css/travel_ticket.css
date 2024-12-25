@@ -65,5 +65,7 @@ body{
 }
 
 .box2{
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
