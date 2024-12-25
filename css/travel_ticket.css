@@ -100,7 +100,6 @@ body{
     border-bottom-style: none;
     border-left-style: none ;
     border-right-style: none;
-    text-align: center;
     align-items: center;
 
     .btn{
@@ -108,12 +107,17 @@ body{
         background-color: rgb(60, 159, 241);
         border-radius: 10px;
         border-style: double;
-        font-size: 21px;
+        font-size: 19px;
         box-shadow: 0px 0px 2px 2px rgb(232, 15, 174);   
         margin-top: 4px;  
 
     }
 }
+h3{
+    text-align: center;
+}
 .f2{
     font-size: 13px;
+    align-items: center;
+    text-align: center;
 }
