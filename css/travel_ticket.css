@@ -9,7 +9,6 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    box-shadow: 0px 0px 2px 2px rgb(232, 15, 174);   
 
     
 }
@@ -21,6 +20,8 @@ body{
     border-color: black;
     border-style: double;
     border-radius: 2%;
+    box-shadow: 0px 0px 2px 2px rgb(232, 15, 174);   
+
 
 
     .img3{
@@ -45,6 +46,8 @@ body{
     border-right-style: none;
     text-align: center;
     align-items: center;
+    box-shadow: 0px 0px 2px 2px rgb(232, 15, 174);   
+
     .btn{
         font-family: "roboto" , sans-serif;
         background-color: rgb(60, 159, 241);
