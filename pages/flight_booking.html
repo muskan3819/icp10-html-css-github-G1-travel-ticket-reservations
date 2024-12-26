@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>flight-booking page</title>
-   <link rel="stylesheet" href="./../css/travel_booking.css">
-    
+    <title>Flight-booking</title>
+   <link rel="stylesheet" href="./../css/travel_booking.css"> 
 </head>
 <nav>
     <img src="./../img/icons/flight.png" class="logo" alt="Logo"><h1 class="title">Book Domestic and International Flight Tickets</h1>
@@ -15,24 +14,25 @@
         <div class="booking-form">
             <h1>Book <span>Now</span></h1>
              <form action="" onsubmit="return validatefotm()">
+
                 <input type="text" name="myname1" placeholder="Name" id="name" required>
                 <input type="email" name="myemail" placeholder="Email-Id" id="" required>
                 <input type="tel" name="myphone" placeholder="Mobile No." id="phonenum" required>
                 <input type="number" name="myage" placeholder="Age" id="" required>
                 <br>
                 <br>
-                <input type="radio" name="one-way" id="" required> One-Way &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                <input type="radio" name="round-trip" id=""> Round-Trip &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                <input type="radio" name="multi-city" id=""> Multi-City                                                
+                <input type="radio" name="way" id=""required> One-Way &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                <input type="radio" name="way" id=""> Round-Trip &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                <input type="radio" name="way" id=""> Multi-City                                                
                 <br>
                 <br>
-                <label for="destination">From <img src="./../img/icons/flight_from.png" class="flight_logo" alt="Logo"></label>
+                <label for="destination">From <img src="./../img/icons/flight_from.png"></label>
                 <input type="text" name="destination" placeholder="Enter City or Airport" id="name" required> <br>
-                <label for="destination">To <img src="./../img/icons/flight_to.png" class="flight_logo" alt="Logo"></label>&nbsp; &nbsp;&nbsp;
+                <label for="destination">To <img src="./../img/icons/flight_to.png"></label>&nbsp; &nbsp;&nbsp;
                 <input type="text" name="destination" placeholder="Enter City or Airport" id="name" required>
                 <br>
                 <h4>Gender</h4>
-                <input type="radio" name="mygender" id="" required> Male &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="radio" name="mygender" id="" required> Male &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <input type="radio" name="mygender" id=""> Female
                 <h4>Departure</h4>
                 <input type="datetime-local" name="departuredate" id="" required>
@@ -42,19 +42,16 @@
                 <table>
                     <td>
                         <tr>
-                          <a href="payment.html"><img src="./../img/icons/digital_pay.png" class="img"/><img src="./../img/icons/credit_card.png" class="img"/><img src="./../img/icons/mobile_banking.png" class="img"/><h3 claas="head">Choose Payment Method </h3></a>   
+                          <a href="payment.html"target="_blank"><img src="./../img/icons/digital_pay.png" class="img"/><img src="./../img/icons/credit_card.png" class="img"/><img src="./../img/icons/mobile_banking.png" class="img"/><h3 claas="head">Choose Payment Method </h3></a>   
                         </tr>
                     </td>
                 </table>     
                 <br>
-                <input type="checkbox" name="t&c" id="" checked required> I accept the Terms & Conditions.
+                <input type="checkbox" name="t&c" id="" required> I accept the Terms & Conditions.
                 <br> <br>
                 <input type="submit" value="Submit" class="submitbtn">
                 <br>
-                <br>
-                <a href="travel_ticket.html"><img src="./../img/icons/flight_ticket.png" class="img"/><h3 claas="head">Back to Travel Ticket page</h3></a>
-            
-            
+                <a href="travel_ticket.html"target="_blank"><img src="./../img/icons/flight_ticket.png" class="img1"/><h3 class="h1">Back</h3></a>
             </form>
         </div>
     </div>
