@@ -19,9 +19,9 @@ nav{
     margin-left: 20px;
 }
 .title{
-    color: #f3f5fa;
+    color: #f4f6fc;
     font-size: 40px;
-    margin-right: 300px;
+    margin-right: 100px; 
     
 }
 .booking{
@@ -79,12 +79,11 @@ nav{
 }
 .img1{
     width: 100px;
-    margin-left: 50px;
+   
 }
 .h1{
-    margin-left: 50px;    
+    color: #cdcfd3;  
 }
-
 @media screen and (max-width: 600px)
  {
     nav{
