@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: "poppins";
+        }
+        body{
+            display:flex;
+            justify-content: center;
+            align-items:center;
+            min-width: 100px;
+        }
+        .container{
+           position: relative;
+           width:100%;
+           height:100vh;
+           background-color:blue;
+           display: flex;
+           justify-content:center;
+           align-items: center;
+        }
+        .item{
+            width:100%;
+            height:590px;
+            max-width:950px;
+            background-color:#fff;
+            border-radius: 20px;
+            box-shadow: 0 0 20px 10px rgb(0,0,0,.4);
+            overflow: hidden;
+            grid-template-columns: repeat(2, 1fr);
+            display: grid;
+            z-index: 1000;
+        }
+        .contact{
+            background-color:#fff;
+        }
+        .submit-form{
+            background-color:#AFEEEE;
+
+        }
+        
+        .image{
+            height:420px;
+            width:420px;
+        }
+        .social-media{
+            display: flex;
+            list-style: none;
+        }
+       ul li{
+            padding-left: 15px;
+            font-size: 24px;
+            margin-top: 10px;
+        }
+         i{
+            background-color: #8f50ec;
+            padding: 5px;
+            border-radius:5px;
+            transition: .3s;
+            color: #fff;
+        }
+        .social-media i:hover{
+            background: #fff;
+            color: black;
+        }
+        .second-text{
+            font-size: 30px;
+            color: black;
+            padding-left:12px;
+        }
+        .mobile-no{
+            color:blue;
+            padding-left:50px;
+        
+        }
+        .third-text{
+            font-size: 30px;
+            padding-left: 35px;
+           padding-top: 0;
+        }
+        
+        form{
+            padding: 0 45px;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+        }
+        .input-box{
+            height:40px;
+            width:70%;
+            margin:20px 0;
+            position:relative;
+
+
+        }
+        .input{
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            border: 1px solid #fff;
+            border-radius: 20px;
+            outline: none;
+            padding-left: 10px;
+            color: #ffff;
+            font-size: 16px;
+        }
+        .input-box label{
+            position: absolute;
+            top:50%;
+            left:10px;
+            padding-left:10px;
+            transform: translateY(-50%);
+            font-size:15px;
+            font-weight:600;
+            color:black;
+            transition: .3s;
+        }
+       
+        textarea.input{
+            resize: none;
+            min-height:170px;
+            overflow:auto;
+            }
+            .btn{
+                position: relative;
+                top:150px;
+                background-color: green;
+                text-align:center;
+                border-radius:2px;
+                height:30px;
+                width:100px;
+                font-size:25px;
+                cursor: pointer;
+                font-weight: 500;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <div class="contact">
+                <img src="./../img/contact-img.webp" alt="logo" class="image"><br>
+                <div class="social-links">
+                    <span class="second-text">Contact With Us:</span><br>
+                    <div class="social-links">
+                        <div class="mobile-no">Mobile-no:1234567890</div>
+                        <div class="mobile-no">gayatridale@gmail.com</div>
+                    </div>
+                    <ul class="social-media">
+                        <li><a href="https://www.facebook.com"><i class="bx bxl-facebook"></i></a></li>
+                        <li><a href="https://www.twitter.com"><i class="bx  bxl-twitter"></i></a></li>
+                        <li><a href="https://www.youtube.com"><i class="bx bxl-youtube"></i></a></li>
+                        <li><a href="https://www.instagram.com"><i class="bx bxl-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="submit-form">
+                <h4 class="third-text"> Send as a Messages</h4>
+                <form action="">
+                    <div class="input-box">
+                        <input type="text" class="input">
+                        <label for="">Name</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="email" class="input" required>
+                        <label for="">Email</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="tel" class="input" required>
+                        <label for="">Phone</label>
+                    </div> <div class="input-box">
+                        <textarea name="" class="input" required  id="message" cols="30" rows="10"></textarea>
+                        <label for="">Message</label>
+                    </div>
+                    <input type="submit" class="btn" value="Submit">
+                 </form>
+            </div>
+         </div>
+         </div>
+    </div>
+</body>
+</html>
