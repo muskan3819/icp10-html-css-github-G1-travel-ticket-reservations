@@ -40,3 +40,6 @@ button:hover {
     background-color: #555;
     transition: 0.5s;
 }
+.img{
+    padding-top: 10px;
+}
