@@ -14,7 +14,7 @@ nav{
     justify-content: space-between;
 }
 .logo{
-    width: 70px;
+    width: 100px;
     margin: 20px;
     margin-left: 20px;
 }
@@ -45,7 +45,7 @@ nav{
 .booking-form form input{
     color: rgb(251, 251, 252);
     padding: 17px;
-    background-color: #090944;
+    background-color: #0b0b85;
     font-size: 20px;
     outline: none;
     border: none;
@@ -78,7 +78,7 @@ nav{
     width: 100px;
 }
 .img1{
-    width: 100px;
+    width: 90px;
    
 }
 .h1{
