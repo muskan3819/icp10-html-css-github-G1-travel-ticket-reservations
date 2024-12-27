@@ -14,14 +14,14 @@ nav{
     justify-content: space-between;
 }
 .logo{
-    width: 70px;
+    width: 100px;
     margin: 20px;
     margin-left: 20px;
 }
 .title{
-    color: #cdcfd3;
+    color: #f4f6fc;
     font-size: 40px;
-    margin-right: 300px;
+    margin-right: 100px; 
     
 }
 .booking{
@@ -78,13 +78,14 @@ nav{
     width: 100px;
 }
 .img1{
-    width: 100px;
-    margin-left: 50px;
-}
-.h1{
-    margin-left: 50px;    
+    width: 90px; 
+    padding-right: 30px; 
 }
 
+.h1{
+    color: #cdcfd3;
+   
+}
 @media screen and (max-width: 600px)
  {
     nav{
