@@ -220,3 +220,13 @@ background-color: #f2f2f2;
     width: 100%;
     padding: 20px 0;
   }
+
+   .feedback-container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 1200px;
+    width:980px;
+    text-align: center;
+  }
