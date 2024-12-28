@@ -46,6 +46,6 @@ button:hover {
 .container_home{
     height: 700px;
     width: 100%;
-    background-image:url(img/project.jpeg);
+    background-image:url(./../img/project.jpeg);
     background-size:cover;
 }
