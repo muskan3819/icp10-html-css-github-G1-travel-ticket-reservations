@@ -11,38 +11,41 @@
     <a href="travel_ticket.html"target="_blank"><img src="./../img/icons/train_ticket.png" class="img1"/><h3 class="h1">Back</h3></a>
  </nav>
 <body>
-    <div class="booking">
-        <div class="booking-form">
-            <h1>Book <span>Now</span></h1>
-            <form action="" onsubmit="return validateform()">
-                <input type="text" name="myname1" placeholder="Name" id="name" required>
-                <input type="email" name="myemail" placeholder="Email-Id" id="" required>
-                <input type="tel" name="myphone" placeholder="Phone No." id="phonenum" required>
-                <input type="number" name="myage" placeholder="Age" id="" required>
-                <br>
-                <br>
-                <label for="destination">From<img src="./../img/icons/train_out.png"></label>
-                <input type="text" name="destination" placeholder="Enter Source Name" id="name" required> <br>
-                <label for="destination">To<img src="./../img/icons/train_in.png"></label>&nbsp; &nbsp;&nbsp;
-                <input type="text" name="destination" placeholder="Enter Destination Name" id="name" required>
-                <br>
-                <br>
-                <label for="travellers">Passengers<img src="./../img/icons/user.png"></label>
-                <input type="number" name="travellers" placeholder="Enter Persons" id="" required>
-                <br>
-                <h4>Gender</h4>
-                <input type="radio" name="mygender" id="" required> Male &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <input type="radio" name="mygender" id=""> Female 
-                <h4>Departure</h4>
-                <input type="datetime-local" name="departuredate" id="" required> 
-                <h4>Return</h4>
-                <input type="datetime-local" name="returndate" id="" required>
-                <br>  
-                <input type="checkbox" name="t&c" id="" required> I accept the Terms & Conditions.
-                <br> <br> 
-                <input type="submit" value="Submit" class="submitbtn">
-            </form>
-        </div>
-    </div>          
+    <center>
+        <div class="booking">
+            <div class="booking-form">
+                <h1>Book <span>Now</span></h1>
+                <form action="" onsubmit="return validateform()">
+                    <input type="text" name="myname1" placeholder="Name" id="name" required>
+                    <input type="email" name="myemail" placeholder="Email-Id" id="" required>
+                    <input type="tel" name="myphone" placeholder="Phone No." id="phonenum" required>
+                    <input type="number" name="myage" placeholder="Age" id="" required>
+                    <br>
+                    <br>
+                    <label for="destination">From<img src="./../img/icons/train_out.png"></label>
+                    <input type="text" name="destination" placeholder="Enter Source Name" id="name" required> <br>
+                    <label for="destination">To<img src="./../img/icons/train_in.png"></label>&nbsp; &nbsp;&nbsp;
+                    <input type="text" name="destination" placeholder="Enter Destination Name" id="name" required>
+                    <br>
+                    <br>
+                    <label for="travellers">Passengers<img src="./../img/icons/user.png"></label>
+                    <input type="number" name="travellers" placeholder="Enter Persons" id="" required>
+                    <br>
+                    <h4>Gender</h4>
+                    <input type="radio" name="mygender" id="" required> Male &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="mygender" id=""> Female 
+                    <h4>Departure</h4>
+                    <input type="datetime-local" name="departuredate" id="" required> 
+                    <h4>Return</h4>
+                    <input type="datetime-local" name="returndate" id="" required>
+                    <br>  
+                    <input type="checkbox" name="t&c" id="" required> I accept the Terms & Conditions.
+                    <br> <br> 
+                    <input type="submit" value="Submit" class="submitbtn">
+                </form>
+            </div>
+        </div>          
+    </center>
+    
 </body>
 </html>
