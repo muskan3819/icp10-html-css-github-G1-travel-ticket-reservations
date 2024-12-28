@@ -1,13 +1,13 @@
 body{
     font-family: 'Poppins', sans-serif;
-    background: #f3f3f3;
+    background:  rgb(167, 205, 253);
     margin: 0;
 }
 
 nav{
     width: 100%;
     position: fixed;
-    background-color: rgb(18, 58, 235);
+    background-color: rgb(95, 171, 248);
     box-shadow: 5px 5px 30px rgba(148, 157, 182, 0.15);
     display: flex;
     align-items: center;
