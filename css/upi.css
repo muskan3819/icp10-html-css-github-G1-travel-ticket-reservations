@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: rgb(167,205,253);
 }
 .payment-container {
     width: 45%;
@@ -42,10 +43,4 @@ button:hover {
 }
 .img{
     padding-top: 10px;
-}
-.container_home{
-    height: 700px;
-    width: 100%;
-    background-image:url(./../img/project.jpeg);
-    background-size:cover;
 }
