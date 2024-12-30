@@ -106,7 +106,6 @@ nav{
         
     }
     .title{
-        color: #fefeff;
         font-size: 20px;
         
     }
@@ -124,6 +123,11 @@ nav{
         margin: 20px;
         margin-left: 20px;
         
+        
+    }
+    .img1{
+        width: 60px; 
+        padding-right: 30px; 
     }
    }
  }
