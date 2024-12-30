@@ -130,6 +130,10 @@ nav{
         padding-right: 30px; 
     }
    }
+   .title{
+    font-size: 30px;
+    
+}
  }
   /* laptop screen */
  @media (min-width: 801px) and (max-width:1024px)
