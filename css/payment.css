@@ -27,12 +27,6 @@
             .img1{
                 border-radius: 10px;
             }
-         .container_home{
-    height: 900px;
-    width: 100%;
-    background-image:url(./../img/project.jpeg);
-    background-size:cover;
-         }
          .img{
             margin-left:2% ;
         }
@@ -40,6 +34,12 @@
             align-items: center;
             font-family: Copperplate Gothic Bold;
             font-size: 20px;
+        }
+        .container_home{
+            height: 900px;
+            width: 100%;
+            background-image:url(./../img/project.jpeg);
+            background-size:cover;
         }
          .navbar{
             background-color: rgb(95, 171, 248);
