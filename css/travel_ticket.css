@@ -347,7 +347,7 @@ h3{
 }
 .hotel-card {
     width: 350px;
-    height: 400px;
+    height: 500px;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -361,7 +361,7 @@ h3{
   
   .hotel-image {
     width: 95%;
-    height: 250px;
+    height: 95%;
     overflow: hidden;
     border-radius: 10px 10px 0 0;
     padding: 10px;
@@ -375,7 +375,7 @@ h3{
   
   .hotel-info {
     width: 89%;
-    height: 150px;
+    height: 50px;
     padding: 20px;
     border-radius: 0 0 10px 10px;
     background-color: #fff;
