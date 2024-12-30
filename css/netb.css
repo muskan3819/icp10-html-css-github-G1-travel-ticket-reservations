@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+   
 }
 .payment-container {
     width: 45%;
@@ -44,7 +45,7 @@ button:hover {
     padding-top: 10px;
 }
 .container_home{
-    height: 700px;
+    height: 900px;
     width: 100%;
     background-image:url(./../img/project.jpeg);
     background-size:cover;
