@@ -402,3 +402,12 @@ h3{
 .f3{
     color: aliceblue;
 }
+
+.copy{
+    background-color: #000;
+    color: aliceblue;
+    text-align: center;
+    height: 30px;
+    align-items: center;
+    width: 100%;
+  }   
