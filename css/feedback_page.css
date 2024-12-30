@@ -1,109 +1,93 @@
 /*feedback_page.css*/
-
-    body 
-            .img{
-                margin-left:2% ;
-            }
-            .f1{
-                align-items: center;
-                font-family: Copperplate Gothic Bold;
-                font-size: 20px;
-            }
-             .navbar{
-                background-color: rgb(156, 201, 246);
-                height: 85px;
-                width: 400%;
-                position: sticky;
-                width: 100%;
-                z-index: 200%;
-                color: rgb(14, 15, 15);
-                display: flex;
-                align-items: center;
-                
-                .login{
-        margin-left: 6%;
-    }
-    .Home{
-      margin-left: 5%;
-    }
-    .h_booking{
-      margin-left: 5%;
-   }
-   .ticket{
-      margin-left: 5%;
-    }
-    .Contact{
-       margin-left: 5%;
-    }
-    .about{
-       margin-left: 5%;
-    }
-    .feedback{
-       margin-left: 5%;
-    }
-    .search{
-       margin-left: 5%;
-    }
-    .font{
-       color: #f2f2f2;
-    }
-           }
-           /* for tablet */
+.navbar{
+  background-color:rgb(95, 171, 248);
+  height: 85px;
+  width: 100%;
+  position: sticky;
+  width: 100%;
+  z-index: 100%;
+  color: rgb(14, 15, 15);
+  display: flex;
+  align-items: center;
+  
+  .login{
+margin-left: 20%;
+}
+.Home{
+margin-left: 7%;
+}
+.Contact{
+margin-left: 7%;
+}
+.about{
+margin-left: 7%;
+}
+.feedback{
+margin-left: 7%;
+}
+.search{
+margin-left: 7%;
+}
+.font{
+color: #f2f2f2;
+}
+}
+/* for tablet */
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    
-    .navbar{
-        background-color: rgb(95, 171, 248);
-        color: #0c0c0c;
-        .menu{
-            margin-left: 20%;
-        }
-       .f1{
-        font-size: 15px;
-       }
-       .search{
-        display: none;
-       }
-    }
-    .menu-list{
-        display: none;
-    }
-    .hamburger-menu{
-        display: none;
-    }
 
-  }
-/* for moblie */
-  @media screen and (min-width: 100px) and (max-width: 768px){
-    .login{
+.navbar{
+background-color: rgb(95, 171, 248);
+color: #0c0c0c;
+.menu{
+  margin-left: 20%;
+}
+.f1{
+font-size: 15px;
+}
+.search{
 display: none;
-    }
-  .Home{
-    display: none;
 }
-  .h_booking{
-    display: none;
 }
- .ticket{
-    display: none;
+.menu-list{
+display: none;
 }
- .Contact{
-    display: none;
+.hamburger-menu{
+display: none;
 }
- .about{
-    display: none;
-}
- .feedback{
-    display: none;
-}
- .search{
-    display: none;
-}
- .font{
-    color: #f2f2f2;
- }
-        }
 
-    .hamburger-menu {
+}
+/* for moblie */
+@media screen and (min-width: 100px) and (max-width: 768px){
+.login{
+display: none;
+}
+.Home{
+display: none;
+}
+.h_booking{
+display: none;
+}
+.ticket{
+display: none;
+}
+.Contact{
+display: none;
+}
+.about{
+display: none;
+}
+.feedback{
+display: none;
+}
+.search{
+display: none;
+}
+.font{
+color: #f2f2f2;
+}
+}
+
+.hamburger-menu {
 position: relative;
 display: inline-block;
 margin-left: 25%;
@@ -137,7 +121,7 @@ transition: all 0.3s;
 position: absolute;
 top: 30px;
 left: 0;
-width: 400px;
+width: 200px;
 background-color: rgb(158, 177, 237);
 list-style: none;
 padding: 0;
@@ -164,43 +148,44 @@ background-color: #f2f2f2;
 }
 
 
-  
-   /*for laptop */
-   @media screen and (min-width: 992px) and (max-width: 1200px){
-     .navbar{
-        background-color:rgb(95, 171, 248);
-        color: #0c0c0c;
-        width: 100%;
-     }
-     .f1{
-        font-size: 15 px;
-     }
-     .menu{
-            margin-left: 20%;
-        }
-        .img2{
-            display: none;
-        }
-        .menu-list{
-        display: none;
-    }
-    .hamburger-menu{
-        display: none;
-    }
-   }
-   /* for big screen*/
-   @media screen and (min-width: 1200px) and (max-width: 3000px){
-    .img2{
-        display: none;
-        align-items: center;
-    }
-    .menu-list{
-        display: none;
-    }
-    .hamburger-menu{
-        display: none;
-    }
-   }
+
+/*for laptop */
+@media screen and (min-width: 992px) and (max-width: 1200px){
+.navbar{
+background-color:rgb(95, 171, 248);
+color: #0c0c0c;
+width: 100%;
+}
+.f1{
+font-size: 15 px;
+}
+.menu{
+  margin-left: 20%;
+}
+.img2{
+  display: none;
+}
+.menu-list{
+display: none;
+}
+.hamburger-menu{
+display: none;
+}
+}
+/* for big screen*/
+@media screen and (min-width: 1200px) and (max-width: 3000px){
+.img2{
+display: none;
+align-items: center;
+}
+.menu-list{
+display: none;
+}
+.hamburger-menu{
+display: none;
+}
+}
+body
    {
     margin: 0; 
     font-family:Arial, sans-serif ;
@@ -270,17 +255,15 @@ background-color: #f2f2f2;
     border-radius: 10px;
     resize: none;
   }
-  button {
-    width: 100%;
-    background-color: #007BFF;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 20px;
-    font-weight: bold;
-    transition: background-color 0.3s;
+  .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
   }
   
   button:hover {
