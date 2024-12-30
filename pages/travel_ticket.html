@@ -7,208 +7,7 @@
     <link rel="stylesheet" href="./../css/travel_ticket.css">
 
     <style>
-        .img{
-            margin-left:2% ;
-        }
-        .f1{
-            align-items: center;
-            font-family: Copperplate Gothic Bold;
-            font-size: 20px;
-        }
-         .navbar{
-            background-color: rgb(95, 171, 248);
-            height: 85px;
-            width: 100%;
-            position: sticky;
-            width: 100%;
-            z-index: 100%;
-            color: rgb(14, 15, 15);
-            display: flex;
-            align-items: center;
-            
-            .login{
-    margin-left: 6%;
-  }
-  .Home{
-    margin-left: 5%;
-  }
-  .h_booking{
-    margin-left: 5%;
- }
- .ticket{
-    margin-left: 5%;
- }
- .Contact{
-    margin-left: 5%;
- }
- .about{
-    margin-left: 5%;
- }
- .feedback{
-    margin-left: 5%;
- }
- .search{
-    margin-left: 5%;
- }
- .font{
-    color: #f2f2f2;
- }
-        }
-/* for tablet */
-@media screen and (min-width: 768px) and (max-width: 992px) {
-    
-    .navbar{
-        background-color: rgb(95, 171, 248);
-        color: #0c0c0c;
-        .menu{
-            margin-left: 20%;
-        }
-       .f1{
-        font-size: 15px;
-       }
-       .search{
-        display: none;
-       }
-    }
-    .menu-list{
-        display: none;
-    }
-    .hamburger-menu{
-        display: none;
-    }
-
-  }
-/* for moblie */
-  @media screen and (min-width: 100px) and (max-width: 768px){
-    .login{
-display: none;
-    }
-  .Home{
-    display: none;
-}
-  .h_booking{
-    display: none;
-}
- .ticket{
-    display: none;
-}
- .Contact{
-    display: none;
-}
- .about{
-    display: none;
-}
- .feedback{
-    display: none;
-}
- .search{
-    display: none;
-}
- .font{
-    color: #f2f2f2;
- }
-        }
-
-    .hamburger-menu {
-position: relative;
-display: inline-block;
-margin-left: 25%;
-align-items: center;
-}
-
-#menu-toggle {
-display: none;
-}
-
-.menu-toggle-label {
-position: relative;
-display: block;
-width: 30px;
-height: 30px;
-cursor: pointer;
-}
-
-.menu-icon {
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-width: 20px;
-height: 2px;
-background-color: rgb(56, 97, 232);
-transition: all 0.3s;
-}
-
-.menu-list {
-position: absolute;
-top: 30px;
-left: 0;
-width: 200px;
-background-color: rgb(158, 177, 237);
-list-style: none;
-padding: 0;
-margin: 0;
-display: none;
-}
-
-#menu-toggle:checked ~ .menu-list {
-display: block;
-}
-
-.menu-list li {
-padding: 10px;
-border-bottom: 1px solid #ccc;
-}
-
-.menu-list li a {
-color: #333;
-text-decoration: none;
-}
-
-.menu-list li:hover {
-background-color: #f2f2f2;
-}
-
-
-  
-   /*for laptop */
-   @media screen and (min-width: 992px) and (max-width: 1200px){
-     .navbar{
-        background-color:rgb(95, 171, 248);
-        color: #0c0c0c;
-        width: 100%;
-     }
-     .f1{
-        font-size: 15 px;
-     }
-     .menu{
-            margin-left: 20%;
-        }
-        .img2{
-            display: none;
-        }
-        .menu-list{
-        display: none;
-    }
-    .hamburger-menu{
-        display: none;
-    }
-   }
-   /* for big screen*/
-   @media screen and (min-width: 1200px) and (max-width: 3000px){
-    .img2{
-        display: none;
-        align-items: center;
-    }
-    .menu-list{
-        display: none;
-    }
-    .hamburger-menu{
-        display: none;
-    }
-   }
-  
-
+      
     </style>
 </head>
 <body>
@@ -220,22 +19,20 @@ background-color: #f2f2f2;
                 <span class="menu-icon"><img src="https://cdn-icons-png.flaticon.com/128/10486/10486773.png" height="30px" class="img2"></span>
                 </label>
                 <ul class="menu-list">
-                  <li><a href="#">login</a></li>
-                  <li><a href="#">home</a></li>
+                  <li><a href="login.html">login</a></li>
+                  <li><a href="home_page.html">home</a></li>
                   <li><a href="#">hotel boking</a></li>
-                  <li><a href="#">ticket</a></li>
-                  <li><a href="#">contact</a></li>
-                  <li><a href="#">about us</a></li>
-                  <li><a href="#">rating</a></li>
+                  <li><a href="travel_ticket.html">ticket</a></li>
+                  <li><a href="contact.html">contact</a></li>
+                  <li><a href="about.html">about us</a></li>
+                  <li><a href="feedback_page.html">rating</a></li>
                 </ul>
               </div>
             <div class="login"><a href="login.html"><img src="https://cdn-icons-png.flaticon.com/128/5509/5509636.png" height="30px"><br><div class="font">login</div></a></div>
             <div class="Home"><a href="home_page.html"><img src="https://cdn-icons-png.flaticon.com/128/25/25694.png" height="30px"><br><div class="font">home</div></a></div>
-            <div class="h_booking"><a href="#"><img src="https://cdn-icons-png.flaticon.com/128/2460/2460737.png" height="30px"><br><div class="font">hotel bookig</div></a></div>
-            <div class="ticket"><a href="travel_ticket.html"><img src="https://cdn-icons-png.flaticon.com/128/389/389801.png" height="30px"><br><div class="font">ticket</div></a></div>
-            <div class="Contact"><a href="#"><img src="https://cdn-icons-png.flaticon.com/128/7269/7269995.png" height="30px"><br><div class="font">contact</div></a></div>
-            <div class="about"><a href="#"><img src="https://cdn-icons-png.flaticon.com/128/18244/18244679.png" height="30px"><br><div class="font">about us</div></a></div>
-            <div class="feedback"><a href="#"><img src="https://cdn-icons-png.flaticon.com/128/9815/9815222.png" height="30px"><br><div class="font">rating</div></a></div>
+            <div class="Contact"><a href="contact.html"><img src="https://cdn-icons-png.flaticon.com/128/7269/7269995.png" height="30px"><br><div class="font">contact</div></a></div>
+            <div class="about"><a href="about.html"><img src="https://cdn-icons-png.flaticon.com/128/18244/18244679.png" height="30px"><br><div class="font">about us</div></a></div>
+            <div class="feedback"><a href="feedback_page.html"><img src="https://cdn-icons-png.flaticon.com/128/9815/9815222.png" height="30px"><br><div class="font">rating</div></a></div>
             <div class="search"><img src="https://cdn-icons-png.flaticon.com/128/18598/18598800.png" height="30px"></div><div ><input type="search" placeholder="search" class="search" ></div>
             </div>
     <br>
