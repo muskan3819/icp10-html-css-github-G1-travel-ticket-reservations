@@ -83,6 +83,7 @@ nav{
 
 .h1{
     color: #cdcfd3;
+    font-size: 20px;
    
 }
 
@@ -128,6 +129,10 @@ nav{
     .img1{
         width: 60px; 
         padding-right: 30px; 
+    }
+    .h1{
+        font-size: 15px; 
+       
     }
    }
    .title{
