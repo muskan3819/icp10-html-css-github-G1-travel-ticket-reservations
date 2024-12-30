@@ -2,6 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     background:  rgb(167, 205, 253);
     margin: 0;
+   
 }
 
 nav{
@@ -26,8 +27,6 @@ nav{
 }
 .booking{
     padding: 110px 30%;
-    height: 100%;
-    
 }
 .booking-form h1{
     font-size: 80px;
@@ -86,23 +85,42 @@ nav{
     color: #cdcfd3;
    
 }
+
+/* mobile screen */
 @media screen and (max-width: 600px)
  {
     nav{
-        background-color: rgb(39, 65, 182); 
+        .logo{
+            width: 50px;
+            margin: 20px;
+            margin-left: 20px;
+        }
+        .img1{
+            width: 40px; 
+            padding-right: 30px; 
+        }
+        .h1{
+            font-size: 15px; 
+           
+        }
+        
     }
     .title{
-        color: #cdcfd3;
+        color: #fefeff;
         font-size: 20px;
         
     }
+    .booking{
+        padding: 30px ;
+    }
  }
- 
+
+ /* tablet screen */
  @media (min-width: 600px) and (max-width: 800px)
  {
    
  }
-
+  /* laptop screen */
  @media (min-width: 801px) and (max-width:1024px)
  {
    
