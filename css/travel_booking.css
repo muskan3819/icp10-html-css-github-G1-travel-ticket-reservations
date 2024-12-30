@@ -1,27 +1,27 @@
 body{
     font-family: 'Poppins', sans-serif;
-    background: #8d8dad;
-    
+    background:  rgb(167, 205, 253);
+    margin: 0;
 }
 
 nav{
     width: 100%;
     position: fixed;
-    background-color: rgb(18, 58, 235);
+    background-color: rgb(95, 171, 248);
     box-shadow: 5px 5px 30px rgba(148, 157, 182, 0.15);
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .logo{
-    width: 70px;
+    width: 100px;
     margin: 20px;
     margin-left: 20px;
 }
 .title{
-    color: #cdcfd3;
+    color: #f4f6fc;
     font-size: 40px;
-    margin-right: 300px;
+    margin-right: 100px; 
     
 }
 .booking{
@@ -33,22 +33,78 @@ nav{
     font-size: 80px;
     color: rgb(19, 66, 221);
     margin-bottom: 20px;
+    
 }
 .booking-form h1 span{
     color: #365f8f;
 }
 .booking-form{
-    color: rgb(72, 99, 219);
+    color: rgb(94, 75, 180);
     font-size: 20px;
 }
 .booking-form form input{
-    color: rgb(231, 232, 238);
+    color: rgb(251, 251, 252);
     padding: 17px;
-    background-color: #3236ee;
+    background-color: #0b0b85;
     font-size: 20px;
     outline: none;
     border: none;
     border-radius: 10px;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;  
 }
+.booking-form h4{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #192ee9;
+}
+.booking-form form .submitbtn{
+    display: inline-block;
+    background-color: #4652f5;
+    font-size: 27px;
+    font-weight: 600px;
+    border: 2px solid transparent;
+    border-radius: 60px;
+    width: 220px;
+    cursor: pointer;
+    transition: ease 0.30s;
+}
+.booking-form form .submitbtn:hover{
+    border: 2px solid #915dcc;
+    background-color: transparent;
+    transform: scale(1.1);
+}
+.img{
+    width: 100px;
+}
+.img1{
+    width: 90px; 
+    padding-right: 30px; 
+}
+
+.h1{
+    color: #cdcfd3;
+   
+}
+@media screen and (max-width: 600px)
+ {
+    nav{
+        background-color: rgb(39, 65, 182); 
+    }
+    .title{
+        color: #cdcfd3;
+        font-size: 20px;
+        
+    }
+ }
+ 
+ @media (min-width: 600px) and (max-width: 800px)
+ {
+   
+ }
+
+ @media (min-width: 801px) and (max-width:1024px)
+ {
+   
+ }
+
