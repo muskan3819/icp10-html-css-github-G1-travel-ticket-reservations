@@ -4,7 +4,7 @@ h1{
 }
 body{
     
-        background-color: rgb(167, 205, 253);
+    background-color: rgb(167, 205, 253);
      .imag{
         width: 100%;
      }
@@ -343,7 +343,7 @@ h3{
     justify-content: space-evenly;
     flex-direction: row;
     margin-top: 20px;
-
+   
 }
 .hotel-card {
     width: 450px;
@@ -356,6 +356,11 @@ h3{
     padding: 10px;
     margin-right: 3%;
     background-color: #2196F3;
+    border: 4px;
+    border-color: #fff;
+    border-style: double;
+    box-shadow: 1px 2px 2px 3px #313030;
+
 
   }
   
@@ -380,6 +385,10 @@ h3{
     border-radius: 0 0 10px 10px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 4px;
+    border-color: #fff;
+    border-style: double;
+
   }
 .btn1{
     font-size: 30px;
