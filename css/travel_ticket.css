@@ -382,5 +382,6 @@ h3{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
 .btn1{
-    
+    font-size: 30px;
+    margin-bottom: 60px;
 }
