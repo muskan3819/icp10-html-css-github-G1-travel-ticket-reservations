@@ -67,7 +67,17 @@ body {
     }
     
     }
-    
+    .hamburger-menu {
+        position: relative;
+        display: inline-block;
+        margin-left: 25%;
+        align-items: center;
+        }
+        
+        #menu-toggle {
+        display: none;
+        }
+        
                         
                          
         
