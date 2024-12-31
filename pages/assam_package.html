@@ -2,245 +2,18 @@
 <html>
     <head>
         <title>Document</title>
+        <link rel="stylesheet" href="../css/package.css">
         <style>
-            .navbar{
-    background-color: rgb(95, 171, 248);
-    height: 85px;
-    width: 100%;
-    position: sticky;
-    width: 100%;
-    z-index: 100%;
-    color: rgb(14, 15, 15);
-    display: flex;
-    align-items: center;
-    
-    .login{
-margin-left: 20%;
-}
-.Home{
-margin-left: 7%;
-}
-.Contact{
-margin-left: 7%;
-}
-.about{
-margin-left: 7%;
-}
-.feedback{
-margin-left: 7%;
-}
-.search{
-margin-left: 7%;
-}
-.font{
-color: #f2f2f2;
-}
-}
-/* for tablet */
-@media screen and (min-width: 768px) and (max-width: 992px) {
-
-.navbar{
-background-color: rgb(95, 171, 248);
-color: #0c0c0c;
-.menu{
-    margin-left: 20%;
-}
-.f1{
-font-size: 15px;
-}
-.search{
-display: none;
-}
-}
-.menu-list{
-display: none;
-}
-.hamburger-menu{
-display: none;
-}
-
-}
-/* for moblie */
-@media screen and (min-width: 100px) and (max-width: 768px){
-.login{
-display: none;
-}
-.Home{
-display: none;
-}
-.h_booking{
-display: none;
-}
-.ticket{
-display: none;
-}
-.Contact{
-display: none;
-}
-.about{
-display: none;
-}
-.feedback{
-display: none;
-}
-.search{
-display: none;
-}
-.font{
-color: #f2f2f2;
-}
-}
-
-.hamburger-menu {
-position: relative;
-display: inline-block;
-margin-left: 25%;
-align-items: center;
-}
-
-#menu-toggle {
-display: none;
-}
-
-.menu-toggle-label {
-position: relative;
-display: block;
-width: 30px;
-height: 30px;
-cursor: pointer;
-}
-
-.menu-icon {
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-width: 20px;
-height: 2px;
-background-color: rgb(56, 97, 232);
-transition: all 0.3s;
-}
-
-.menu-list {
-position: absolute;
-top: 30px;
-left: 0;
-width: 200px;
-background-color: rgb(158, 177, 237);
-list-style: none;
-padding: 0;
-margin: 0;
-display: none;
-}
-
-#menu-toggle:checked ~ .menu-list {
-display: block;
-}
-
-.menu-list li {
-padding: 10px;
-border-bottom: 1px solid #ccc;
-}
-
-.menu-list li a {
-color: #333;
-text-decoration: none;
-}
-
-.menu-list li:hover {
-background-color: #f2f2f2;
-}
-
-
-
-/*for laptop */
-@media screen and (min-width: 992px) and (max-width: 1200px){
-.navbar{
-background-color:rgb(95, 171, 248);
-color: #0c0c0c;
-width: 100%;
-}
-.f1{
-font-size: 15 px;
-}
-.menu{
-    margin-left: 20%;
-}
-.img2{
-    display: none;
-}
-.menu-list{
-display: none;
-}
-.hamburger-menu{
-display: none;
-}
-}
-/* for big screen*/
-@media screen and (min-width: 1200px) and (max-width: 3000px){
-.img2{
-display: none;
-align-items: center;
-}
-.menu-list{
-display: none;
-}
-.hamburger-menu{
-display: none;
-}
-}
- 
-    .container{
-        height: 800px;
-        background-color: rgb(167, 205, 253);
-    }
-    .heading-package{
-        font-size: 50px;
-        position: relative;
-        left: 420px;
-        top: 30px;
-        margin: 50px;
-    }
-    .img-package{
-        margin: 18px;
-        margin-top: 50px;
-        height: 300px;
-        width: 400px;
-        border-radius: 10px;
-        box-shadow: 0px 0px 3px 3px  rgb(110, 105, 105);
-    }
-    .img-package:hover{
-        box-shadow: 0px 0px 10px 10px  rgb(110, 105, 105);
-    } 
-    .container-info{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    .package-list{
-        position: relative;
-       
-        top: 50px;
-    }
-    .package-list-items{
-        font-size: 20px;
-    }
-    .footer-card{
-        height: 100px;
-        background-color:  rgb(95, 171, 248);
-        margin-top: 80px;
-        text-align: center;
-    }
-    .img-pakcage-icon{
-        height: 30px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .bottom-heading{
-        margin: 20px;
-        font-size: 20px;
-    }
-    </style>
+            .back-btn{
+                background-color: rgb(95, 171, 248);
+                border-radius: 3px;
+                border: 1px solid black;
+                color: black;
+                margin-left: 20px;
+                height: 30px;
+                width: 50px;
+            }
+        </style>
     </head>
     <body>
         <div class="navbar">
@@ -269,6 +42,8 @@ display: none;
              </div>
 
              <div class="container">
+                <a href="./package.html">
+                    <button class="back-btn">Back</button></a>
                 <b class="heading-package">Assam Tour Package</b>
                 <div>
                   <img src="./../img/assam-1.jpeg" alt="img of manali" class="img-package">
