@@ -119,14 +119,14 @@ textarea.input{
         position: relative;
         top:140px;
         left:0;
-        background-color:white;
+        background-color:rgb(183, 183, 244);
         text-align:center;
         border-radius:2px;
         height:40px;
         width:100px;
         font-size:25px;
         cursor: pointer;
-        font-weight:400;
+        font-weight:500;
 
     }
     
