@@ -191,7 +191,7 @@ display: none;
 }
  
     .container{
-        height: 600px;
+        height: 800px;
         background-color: rgb(167, 205, 253);
     }
     .heading-package{
@@ -211,6 +211,34 @@ display: none;
     }
     .img-package:hover{
         box-shadow: 0px 0px 10px 10px  rgb(110, 105, 105);
+    } 
+    .container-info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .package-list{
+        position: relative;
+       
+        top: 50px;
+    }
+    .package-list-items{
+        font-size: 20px;
+    }
+    .footer-card{
+        height: 100px;
+        background-color:  rgb(95, 171, 248);
+        margin-top: 80px;
+        text-align: center;
+    }
+    .img-pakcage-icon{
+        height: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .bottom-heading{
+        margin: 20px;
+        font-size: 20px;
     }
     </style>
     </head>
@@ -246,10 +274,52 @@ display: none;
                   <img src="./../img/manali-1.jpg" alt="img of manali" class="img-package">
                   <img src="./../img/manali-2.jpeg" alt="img of manali" class="img-package">
                   <img src="./../img/manali-3.jpg" alt="img of manali" class="img-package">
- 
                 </div>
-                <div></div>
-                <div></div>
+                <hr><hr><hr>
+
+                <div class="container-info">
+                    <div class="package-list">
+                        <h2>Destinations to be covered</h2>
+                        <ol class="package-list-items">
+                            <li>Nashik</li>
+                            <li>Jaipur</li>
+                            <li>Chndigarh</li>
+                            <li>Rishikesh</li>
+                            <li>Manali</li>
+                        </ol>
+                    </div>
+                    <div class="package-list">
+                        <h2>Duration</h2>
+                        <ul class="package-list-items">
+                            <li>Departure Time :-</li>
+                            <li>Jaipur</li>
+                            <li>Chndigarh</li>
+                            <li>Rishikesh</li>
+                            <li>Manali</li>
+                        </ul>
+                    </div>
+                    <div class="package-list">
+                        <h2>Facilities</h2>
+                        <ul class="package-list-items">
+                            <li>Accomodation as per plan</li>
+                            <li>News paper and water bottle on arrival</li>
+                            <li>Guide on arrival</li>
+                           
+                        </ul>
+                    </div>
+                </div>
+               
+                <div class="footer-card">
+                    <p class="bottom-heading">Contact us on</p>
+                    
+                    <div>
+                        <img src="./../img/instagram.png" alt="img of instagram" class="img-pakcage-icon"/>
+                        <img src="./../img/gmail.png" alt="img of Email" class="img-pakcage-icon"/>
+                        <img src="./../img/telephone.png" alt="img of instagram" class="img-pakcage-icon"/>
+                
+                    </div>
+                </div>
+                
              </div>
     </body>
 </html>
