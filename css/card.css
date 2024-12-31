@@ -42,10 +42,6 @@ button:hover {
     background-color: blue;
     transition: 0.5s;
 }
-.bank a{
-    text-decoration: none;
-    color: white;
-}
 .img{
     padding-top: 10px;
 }
