@@ -2,20 +2,19 @@
 <html>
     <head>
         <title>Document</title>
-    </head>
-    <style>
-        .navbar{
-background-color: rgb(95, 171, 248);
-height: 85px;
-width: 100%;
-position: sticky;
-width: 100%;
-z-index: 100%;
-color: rgb(14, 15, 15);
-display: flex;
-align-items: center;
-
-.login{
+        <style>
+            .navbar{
+    background-color: rgb(95, 171, 248);
+    height: 85px;
+    width: 100%;
+    position: sticky;
+    width: 100%;
+    z-index: 100%;
+    color: rgb(14, 15, 15);
+    display: flex;
+    align-items: center;
+    
+    .login{
 margin-left: 20%;
 }
 .Home{
@@ -44,7 +43,7 @@ color: #f2f2f2;
 background-color: rgb(95, 171, 248);
 color: #0c0c0c;
 .menu{
-margin-left: 20%;
+    margin-left: 20%;
 }
 .f1{
 font-size: 15px;
@@ -165,10 +164,10 @@ width: 100%;
 font-size: 15 px;
 }
 .menu{
-margin-left: 20%;
+    margin-left: 20%;
 }
 .img2{
-display: none;
+    display: none;
 }
 .menu-list{
 display: none;
@@ -190,48 +189,31 @@ display: none;
 display: none;
 }
 }
-   .container{
-    height: 800px;
-    background-color: rgb(167,205,253);
-    display: flex;
-    justify-content: space-around;
-   }
-   .card{
-    height: 650px;
-    width: 300px;
-    margin-top: 60px;
-    background-color: white;
-    border-radius: 10px;
-   }
-   .content{
-    padding: 20px;
-   }
-   .icon-img{
-    height: 25px;
-    padding-right: 30px;
-   }
-   .img-card{
-    width: 300px;
-    height: 250px;
-    border-radius: 10px 10px 0px 0px;
-   }
-   .card:hover{
-    box-shadow: 0px 0px 10px 10px  rgb(110, 105, 105);
-   }
-   .btn-card{
-    background-color: #0c0c0c;
-    border-radius: 30px;
-    color: white;
-    font-size: 20px;
-    height: 30px;
-    margin-left: 65px;
+ 
+    .container{
+        height: 600px;
+        background-color: rgb(167, 205, 253);
     }
-   
-    .card-heading{
-        text-align: center;
+    .heading-package{
+        font-size: 50px;
+        position: relative;
+        left: 420px;
+        top: 30px;
+        margin: 50px;
     }
-  
-  </style>
+    .img-package{
+        margin: 18px;
+        margin-top: 50px;
+        height: 300px;
+        width: 400px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 3px 3px  rgb(110, 105, 105);
+    }
+    .img-package:hover{
+        box-shadow: 0px 0px 10px 10px  rgb(110, 105, 105);
+    }
+    </style>
+    </head>
     <body>
         <div class="navbar">
             <div class="img"><img src="https://cdn-icons-png.flaticon.com/128/7894/7894141.png" height="55px"><div class="f1">I n d i a E x p l o r e</div></div>
@@ -256,59 +238,18 @@ display: none;
                 <div class="about"><a href="about.html"><img src="https://cdn-icons-png.flaticon.com/128/18244/18244679.png" height="30px"><br><div class="font">about us</div></a></div>
                 <div class="feedback"><a href="feedback_page.html"><img src="https://cdn-icons-png.flaticon.com/128/9815/9815222.png" height="30px"><br><div class="font">rating</div></a></div>
                 <div class="search"><img src="https://cdn-icons-png.flaticon.com/128/18598/18598800.png" height="30px"></div><div ><input type="search" placeholder="search" class="search" ></div>
-             </div>     
-                <div class="container">
-                   
-                    <div class="card">
-                        <img src="./../img/Manali1.jpeg" class="img-card"/>
-                        <div class="content">
-                            <h1 class="card-heading">Manali</h1>
-                            <hr>
-                        <h4><img src="./../img/plane.png" class="icon-img">15,000</h4>
-                        
-                        <h4><img src="./../img/gmail.png" class="icon-img">rdtours@gmail.com</h4>
-                       
-                        <h4><img src="./../img/instagram.png" class="icon-img">@RD_Tours</h4>
-                       
-                        <h4><img src="./../img/telephone.png" class="icon-img">9325522029</h4>
-                        <hr><hr>
-                        <a href="manalli_package.html"><button class="btn-card">Learn More</button></a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="./../img/kerala.webp" class="img-card"/>
-                        <div class="content">
-                            <h1 class="card-heading">kerala</h1>
-                            <hr>
-                        <h4><img src="./../img/plane.png" class="icon-img">12,000</h4>
-                        
-                        <h4><img src="./../img/gmail.png" class="icon-img">rdtours@gmail.com</h4>
-                        
-                        <h4><img src="./../img/instagram.png" class="icon-img">@RD_Tours</h4>
-                        
-                        <h4><img src="./../img/telephone.png" class="icon-img">9325522029</h4>
-                        <hr><hr>
-                        <a href="kerala_package.html"><button class="btn-card">Learn More</button></a>
-                        </div>
+             </div>
 
-                    </div>
-                    <div class="card">
-                        <img src="./../img/assam.jpeg" class="img-card"/>
-                        <div class="content">
-                            <h1 class="card-heading">Assam</h1>
-                            <hr>
-                        <h4><img src="./../img/plane.png" class="icon-img">20,000</h4>
-                        
-                        <h4><img src="./../img/gmail.png" class="icon-img">rdtours@gmail.com</h4>
-                        
-                        <h4><img src="./../img/instagram.png" class="icon-img">@RD_Tours</h4>
-                        
-                        <h4><img src="./../img/telephone.png" class="icon-img">9325522029</h4>
-                        <hr><hr>
-                        <a href="assam_package.html"><button class="btn-card">Learn More</button></a>
-                        </div>
-
-                    </div>
+             <div class="container">
+                <b class="heading-package">Manali Tour Package</b>
+                <div>
+                  <img src="./../img/manali-1.jpg" alt="img of manali" class="img-package">
+                  <img src="./../img/manali-2.jpeg" alt="img of manali" class="img-package">
+                  <img src="./../img/manali-3.jpg" alt="img of manali" class="img-package">
+ 
                 </div>
+                <div></div>
+                <div></div>
+             </div>
     </body>
 </html>
