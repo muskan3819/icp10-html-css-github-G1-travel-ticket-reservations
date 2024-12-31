@@ -38,10 +38,6 @@ button{
     border: none;
     cursor: pointer;
 }
-.bank a{
-    text-decoration: none;
-    color: white;
-}
 button:hover {
     background-color: blue;
     transition: 0.5s;
