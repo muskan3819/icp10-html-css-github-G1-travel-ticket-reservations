@@ -1,0 +1,148 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background:  rgb(167, 205, 253);
+    margin: 0;
+   
+}
+
+nav{
+    width: 100%;
+    position: fixed;
+    background-color: rgb(95, 171, 248);
+    box-shadow: 5px 5px 30px rgba(148, 157, 182, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 100px;
+    margin: 20px;
+    margin-left: 20px;
+}
+.title{
+    color: #f4f6fc;
+    font-size: 40px;
+    margin-right: 100px; 
+    
+}
+.booking{
+    padding: 110px 30%;
+}
+.booking-form h1{
+    font-size: 80px;
+    color: rgb(19, 66, 221);
+    margin-bottom: 20px;
+    
+}
+.booking-form h1 span{
+    color: #365f8f;
+}
+.booking-form{
+    color: rgb(94, 75, 180);
+    font-size: 20px;
+}
+.booking-form form input{
+    color: rgb(251, 251, 252);
+    padding: 17px;
+    background-color: #0b0b85;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;  
+}
+.booking-form h4{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #192ee9;
+}
+.booking-form form .submitbtn{
+    display: inline-block;
+    background-color: #4652f5;
+    font-size: 27px;
+    font-weight: 600px;
+    border: 2px solid transparent;
+    border-radius: 60px;
+    width: 220px;
+    cursor: pointer;
+    transition: ease 0.30s;
+}
+.booking-form form .submitbtn:hover{
+    border: 2px solid #915dcc;
+    background-color: transparent;
+    transform: scale(1.1);
+}
+.img{
+    width: 100px;
+}
+.img1{
+    width: 90px; 
+    padding-right: 30px; 
+}
+
+.h1{
+    color: #cdcfd3;
+    font-size: 20px;
+   
+}
+
+/* mobile screen */
+@media screen and (max-width: 600px)
+ {
+    nav{
+        .logo{
+            width: 50px;
+            margin: 20px;
+            margin-left: 20px;
+        }
+        .img1{
+            width: 40px; 
+            padding-right: 30px; 
+        }
+        .h1{
+            font-size: 15px; 
+           
+        }
+        
+    }
+    .title{
+        font-size: 20px;
+        
+    }
+    .booking{
+        padding: 30px ;
+    }
+ }
+
+ /* tablet screen */
+ @media (min-width: 601px) and (max-width: 800px)
+ {
+   nav{
+    .logo{
+        width: 80px;
+        margin: 20px;
+        margin-left: 20px;
+        
+        
+    }
+    .img1{
+        width: 60px; 
+        padding-right: 30px; 
+    }
+    .h1{
+        font-size: 15px; 
+       
+    }
+   }
+   .title{
+    font-size: 30px;
+    
+}
+ }
+  /* laptop screen */
+ @media (min-width: 801px) and (max-width:1024px)
+ {
+   
+ }
+
