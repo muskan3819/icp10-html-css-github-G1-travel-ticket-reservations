@@ -83,6 +83,7 @@ nav{
 
 .h1{
     color: #cdcfd3;
+    font-size: 20px;
    
 }
 
@@ -106,7 +107,6 @@ nav{
         
     }
     .title{
-        color: #fefeff;
         font-size: 20px;
         
     }
@@ -118,7 +118,27 @@ nav{
  /* tablet screen */
  @media (min-width: 601px) and (max-width: 800px)
  {
-   
+   nav{
+    .logo{
+        width: 80px;
+        margin: 20px;
+        margin-left: 20px;
+        
+        
+    }
+    .img1{
+        width: 60px; 
+        padding-right: 30px; 
+    }
+    .h1{
+        font-size: 15px; 
+       
+    }
+   }
+   .title{
+    font-size: 30px;
+    
+}
  }
   /* laptop screen */
  @media (min-width: 801px) and (max-width:1024px)
