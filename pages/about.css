@@ -148,6 +148,80 @@ body {
     display: none;
     }
     }
+    /* for big screen*/
+@media screen and (min-width: 1200px) and (max-width: 3000px){
+    .img2{
+    display: none;
+    align-items: center;
+    }
+    .menu-list{
+    display: none;
+    }
+    .hamburger-menu{
+    display: none;
+    }
+    }
+    
+    .about-us {
+        background-color: #c8e2fc;
+        padding: 20px 0;
+    }
+    .arman{
+        font-size: 100px;
+        text-align: center;
+        margin-top: 2%;
+    }
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 10%;
+    }
+    .row {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    padding: 1%;
+    }
+    
+    .col-md-6 {
+        width: 98%;
+        height: 50%;
+        padding: 20px;
+    }
+    
+    .col-md-12 {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .img-fluid {
+        width: 100%;
+        height: 450px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    
+    h2 {
+        color: #2196F3; /* blue color */
+        font-size: 24px;
+        margin-top: 0;
+    }
+
+    p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    li {
+        margin-bottom: 10px;
+    }
     
             
                         
