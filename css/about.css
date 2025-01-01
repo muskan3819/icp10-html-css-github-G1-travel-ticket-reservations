@@ -21,29 +21,29 @@ body {
             margin-left: 7%;
             }
               
-            .h_booking{
+    .h_booking{
                 margin-left: 7%;
                 }
-                .ticket{
-                    margin-left: 7%;
+    .ticket{
+            margin-left: 7%;
                     }
-                    .Contact{
-                        margin-left: 7%;
+     .Contact{
+             margin-left: 7%;
                         }
-                        .about{
-                        margin-left: 7%;
+     .about{
+             margin-left: 7%;
                         }
-                        .feedback{
-                        margin-left: 7%;
+    .feedback{
+            margin-left: 7%;
                         }
-                        .search{
-                        margin-left: 7%;
+    .search{
+            margin-left: 7%;
                         }
-                        .font{
-                        color: #f2f2f2;
+    .font{
+         color: #f2f2f2;
                         }
                         }
-                        /* for tablet */
+/* for tablet */
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
     .navbar{
