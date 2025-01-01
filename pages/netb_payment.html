@@ -9,7 +9,7 @@
 <body>
         <div class="payment-container">
             <h2><img src="./../img/icons/credit-card-band-and-number.png" height="25px" style="padding-right:5px;"/>Net Banking Payment</h2>
-            <form>
+            <form action="./../pages/payment_success.html" target="_blank">
                 <div class="form">
                     <label for="bank-name"><img src="./../img/icons/bank-name.png" height="25px" style="padding-right:5px;"/><b>Bank Name:</b></label>
                     <select id="bank-name" required>
@@ -27,10 +27,10 @@
                 </div>
                 <div class="form">
                     <label for="ifsc-code"><img src="./../img/icons/ifsc_code.png" height="25px" style="padding-right:5px;"/><b>IFSC Code:</b></label>
-                    <input type="text" id="ifsc-code" name="ifsc-code">
+                    <input type="text" id="ifsc-code" name="ifsc-code" required>
                 </div>
                 <div class="bank">
-                <button type="submit"><a href="./../pages/payment_success.html" target="_blank">Pay Now</a></button>
+                <button type="submit">Pay Now</button>
             </div>
                 <center>
                     <a href="./../pages/payment.html" target="_blank"><img src="./../img/back-button.png" height="50px" class="img"/></a>
